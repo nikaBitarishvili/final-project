@@ -1,0 +1,378 @@
+.firstNav {
+    display: grid;
+    grid-template-columns: 15fr 70fr 20fr 10fr 10fr;
+    background-color:white;
+    width: 100%;
+    
+}
+
+
+
+.cirus {
+    margin-left: 10px; 
+    
+}
+
+
+.cirus img {
+    cursor: pointer;
+}
+
+
+.search input {
+    width: 800px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid #db412c;
+    margin-left: 30px;
+    outline: none;
+}
+
+
+
+
+.phone img {
+    padding-top: 17px;
+}
+
+
+
+.phone a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #da3b26;
+}
+
+
+
+.user {
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    cursor: pointer; 
+    background-color:#da3b26;  
+    border-radius: 10px;
+    
+}
+
+.user a {
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+
+.shop img {
+    margin-left: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+.secondnav1 {
+    margin-top: 50px;
+    }
+
+
+
+.secondnav1 img {
+    margin-top: 15px;
+   
+}
+
+
+.secondnav2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color:rgb(188, 226, 226);
+    border-radius: 10px;
+    margin-left: 20px;
+    text-align: center;
+    height: 70px;   
+}
+
+
+.secondnav2 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.product {
+    display: flex;
+    justify-content: center;
+    background-color: #da3b26;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+   
+    
+    
+}
+
+
+
+#proimg {
+    margin-top: 10px;
+}
+
+
+#proa {
+    margin-top: 21px;
+    padding-left: 5px;
+    
+}
+
+#proa a {
+    color: aliceblue;
+}
+
+
+
+
+
+
+.mane1 a {
+font-family: font;
+
+}
+
+
+
+
+@font-face {
+    font-family: font;
+    src: url("/fonts/mtavari.ttf");
+}
+
+
+
+
+
+
+.mane:hover {
+    transform:scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.blog a {
+    color: #be3725;
+}
+
+.about:hover {
+    transform:scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.contact:hover{
+    transform:scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.blog:hover{
+    transform:scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.service:hover{
+    transform:scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.mane1::first-letter {
+    color: #da3b26;
+    font-size: large;
+}
+
+
+
+.line2 {
+    width: 98%;
+    display: block;
+    justify-content: center;
+    margin-left: 10px;
+    border: solid #da3b26;
+   }
+
+
+   main h1 {
+    margin-left: 10px;
+   }
+
+
+
+.blo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    
+}
+
+
+
+
+.blo div {
+    width: 400px;
+    height: 500px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+
+
+
+
+.blo div:hover {
+    border: solid #be3725;
+    border-radius: 10px;
+    background-color: aqua;
+    
+
+}
+
+
+
+
+.blo h3:hover {
+    color: blue;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #08065d;
+    padding: 15px;
+    
+ }
+
+
+
+ .icon {
+    display: flex;
+   padding-right: 20px;
+  
+
+ }
+
+
+ .icon img {
+    margin-left: 30px;
+    margin-top: 5px;
+ }
+
+
+
+
+ .icon img:hover {
+    cursor: pointer;
+    transform: scale(1.09);
+    border:solid #da3b26;
+    border-radius: 50%;
+ }
+
+
+
+ .foot2 {
+width: 96%;
+margin-left: 35px;
+background-color: #08065d;
+
+ }
+
+
+
+ 
+ .logo {
+    margin: 5px;
+    margin-left: 15px;
+ }
+
+
+
+
+ .line3 {
+    border: solid #da3b26;
+    
+ }
+
+
+
+
+ .foot3 {
+    display: grid;
+    grid-template-columns: 30fr 30fr 30fr 30fr;
+    margin-left: 50px;
+    color: white;
+ }
+
+
+
+
+ .navigation a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+ }
+
+
+
+ .partner a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+ }
+
+
+
+ 
+
+
+ .momxmarebeli a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+ }

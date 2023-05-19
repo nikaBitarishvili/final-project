@@ -258,6 +258,120 @@ font-family: font;
 
 
 
+.comicon {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+.comicon img {
+    margin: 20px;
+}
+
+
+.comicon img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.maincom {
+    background-color:#da3b26;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+
+.coment {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#email {
+    width: 400px;
+    height: 50px;
+    background-color: aqua;
+    margin-bottom: 20px;   
+}
+
+
+
+#email:hover {
+    background-color: aliceblue;
+}
+
+
+
+#email:active {
+    background-color: aquamarine;
+}
+
+.comment input {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+#comment1 {
+    width: 400px;
+    height: 200px;
+    background-color: aqua
+}
+
+
+
+#submit {
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: aqua
+}
+
+
+
+#submit:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+
+#comment1:hover {
+    background-color: aliceblue;
+}
+
+
+
+
+#submit:active {
+    background-color: aquamarine;
+}
+
+
+
+
+#comment1:active {
+    background-color: aquamarine;
+}
+
+
+
+
+
+
 
 .foot1 {
     display: flex;

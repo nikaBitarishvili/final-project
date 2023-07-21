@@ -150,6 +150,59 @@ font-family: font;
 
 
 
+.blog12 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+
+.textBlog {
+    text-align: center;
+    font-size: larger;
+}
+
+
+.satauri {
+    text-align: center;
+}
+
+
+
+.readmore {
+    text-decoration: none;
+    color: #be3725;
+    cursor:pointer
+}
+
+
+
+#readmore {
+    text-decoration: none;
+    color: #be3725;
+    cursor:pointer
+}
+
+
+
+#readmore1 {
+    text-decoration: none;
+    color: #be3725;
+    cursor:pointer
+}
+
+
+
+#readmore2 {
+    text-decoration: none;
+    color: #be3725;
+    cursor:pointer
+}
+
+
+
+
 
 @font-face {
     font-family: font;

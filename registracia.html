@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>LogIn</title>
-        <link rel="stylesheet" href="style/user.css">
+        <link rel="stylesheet" href="style/registracia.css">
 
 
         <meta charset="utf-8">
@@ -46,7 +46,7 @@
 
                     <div class="user">
                         <img src="images\user-regular (1).svg" width="20px" alt="">
-                        <a href="">პროფილი</a>
+                        <a href="login.html">პროფილი</a>
                     </div>
 
 
@@ -151,47 +151,31 @@
 
 
         <main>
-            
-        <div class="shemodi">
-            <form onsubmit="Login()">
-                <div class="shemodi1">
-                    <label id="username">username</label>
-                    <input type="text" id="Inputusername" placeholder="username">
-                    <label id="password">password</label>
-                    <input type="passsword" id="Inputpassword" placeholder="password">
-                    <input id="login" type="submit" value="login">
-                </div>
+
+
+            <form>
+                <input id="firstName" type="text" placeholder="Enter your name">
+                <br>
+                <br>
+                <input id="lastName" type="text" placeholder="Enter your last name">
+                <br>
+                <br>
+                <input id="email" type="text" placeholder="Enter your email">
+                <br>
+                <br>
+                <input id="username" type="text" placeholder="Enter your username">
+                <br>
+                <br>
+                <input id="password" type="text" placeholder="Enter your password">
+                <br>
+                <br>
+                <button id="submit12" onclick="handleRegistration()" type="submit">Register</button>
             </form>
-        </div>
-    
+
+
         </main>
-        <footer></footer>
-        <script type="text/Javascript">
-            function Sayhello() {
-                alert("Hello world");
-            }
-    
-            
-    
-            var dummydata = document.getElementById("dummy").innerHTML;
-            
-           
-    
-            function Login() {
-                var username = document.getElementById("Inputusername").value;
-                var password = document.getElementById("Inputpassword").value;
-                event.preventDefault();
-                if (username == "nika" && password == "nika") {
-                    
-                    window.location.href = "welcome.html";
-                } else {
-                    
-                    window.location.href = "/error.html";
-                }
-            }
-        </script>
 
-
+        <script src="scripts/registre.js"></script>
 
 <br>
 <br>

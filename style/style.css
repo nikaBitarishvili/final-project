@@ -219,50 +219,22 @@ font-family: font;
     margin-top: 30px;
     margin-left: 45px;
     width: 95%;
-    height: 400px;
-    border: 1px solid #da3b26;
-    border-radius: 10px;
+    height: 500px;
+    border: 2px solid #da3b26;
+    border-radius: 20px;
     }
 
 
 
     .slider {
-        animation-name: backgraundd;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
         margin: 0;
-        height: 100%;
+        height: 100px;
         width:  100%;
-        animation-duration: 10s;
-        animation-iteration-count:infinite;
-        animation-timing-function: ease-in-out;
-        transition: linear;
         border-radius: 10px;
         
     }
     
     
-    
-    @keyframes backgraundd{
-        25%{
-        background-image: url(https://www.melbournemobiles.com.au/media/wysiwyg/mobile-phones-banner.JPG);
-        }
-    
-    
-        50%{
-         background-image: url(https://marcelbd.com/image/catalog/mobile/feature-phone/new-banner.jpg);width: 500px; height: 300px;
-         }
-    
-    
-        75%{
-         background-image: url(https://media.product.which.co.uk/prod/images/original/gm-470ff515-0299-4a00-80a8-bfb2f54074e1-mobile-phones.jpg);
-         }
-    
-    
-        100%{
-         background-image: url(https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/find-n2-flip-en/no-silk-screen/topbanner/find-n2-flip-5120_1280.jpg);
-         }
-    }
     
 
 

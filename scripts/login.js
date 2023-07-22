@@ -16,18 +16,18 @@ function handleLogin() {
     let username = document.getElementById('username').value;
     let password = document.getElementById('password').value;
 
-    let userData = localStorage.getItem('userData');
-    userData = JSON.parse(userData);
+    let usersData = localStorage.getItem('usersData');
+    usersData = JSON.parse(usersData);
 
     let userExists = false;
 
     let loginForm = document.querySelector('form');
 
-    for (let user = 0; user < userData.length; user++) {
-        if (userData[user].username === username && userData[user].password === password) {
+    for (let user = 0; user < usersData.length; user++) {
+        if (usersData[user].username === username && usersData[user].password === password) {
             let sessionToken = generateString(36);
             sessionStorage.setItem('sessionToken', sessionToken);
-            userData[user].sessionToken = sessionToken;
+            usersData[user].sessionToken = sessionToken;
             userExists = true;
         }
     }
@@ -42,5 +42,5 @@ function handleLogin() {
         window.location.href = 'welcome.html';
     }
 
-    localStorage.setItem('userData', JSON.stringify(userData));
+    localStorage.setItem('usersData', JSON.stringify(usersData));
 }

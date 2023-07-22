@@ -23,7 +23,7 @@ function handleRegistration() {
         localStorage.setItem('usersData', JSON.stringify([user]));
     } else {
         oldUsersData.push(user);
-        localStorage.setItem('userData', JSON.stringify(oldUsersData));
+        localStorage.setItem('usersData', JSON.stringify(oldUsersData));
 
     }
  
